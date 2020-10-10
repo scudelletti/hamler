@@ -74,6 +74,17 @@ $ dpkg -i hamler_$version_amd64.deb
 $ brew tap hamler-lang/hamler
 $ brew install hamler
 ```
+
+**ASDF (linux/macOS)**
+
+** Prerequisites: Erlang
+
+```shell
+$ asdf plugin add hamler
+$ asdf install hamler latest
+$ asdf global hamler latest
+```
+
 ## Project Layout
 
 ```shell
